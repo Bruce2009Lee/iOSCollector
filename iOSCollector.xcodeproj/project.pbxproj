@@ -11,6 +11,7 @@
 		F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AE8257BB216006D91B7 /* ContentView.swift */; };
 		F2623AEB257BB217006D91B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2623AEA257BB217006D91B7 /* Assets.xcassets */; };
 		F2623AEE257BB217006D91B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2623AED257BB217006D91B7 /* Preview Assets.xcassets */; };
+		F2623AF8257BB538006D91B7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AF7257BB538006D91B7 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F2623AEA257BB217006D91B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2623AED257BB217006D91B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2623AEF257BB217006D91B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2623AF7257BB538006D91B7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F2623AF6257BB518006D91B7 /* ViewList */,
 				F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */,
 				F2623AE8257BB216006D91B7 /* ContentView.swift */,
 				F2623AEA257BB217006D91B7 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				F2623AED257BB217006D91B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2623AF6257BB518006D91B7 /* ViewList */ = {
+			isa = PBXGroup;
+			children = (
+				F2623AF7257BB538006D91B7 /* ListView.swift */,
+			);
+			path = ViewList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
+				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
