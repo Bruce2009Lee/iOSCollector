@@ -12,6 +12,11 @@
 		F2623AEB257BB217006D91B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2623AEA257BB217006D91B7 /* Assets.xcassets */; };
 		F2623AEE257BB217006D91B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2623AED257BB217006D91B7 /* Preview Assets.xcassets */; };
 		F2623AF8257BB538006D91B7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AF7257BB538006D91B7 /* ListView.swift */; };
+		F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AFB257BBC1F006D91B7 /* NaviLinkView.swift */; };
+		F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */; };
+		F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBE257BC70400B21E6E /* Islogin.swift */; };
+		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
+		F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F2623AED257BB217006D91B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2623AEF257BB217006D91B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2623AF7257BB538006D91B7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F2623AFB257BBC1F006D91B7 /* NaviLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviLinkView.swift; sourceTree = "<group>"; };
+		F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstView.swift; sourceTree = "<group>"; };
+		F2D5AFBE257BC70400B21E6E /* Islogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islogin.swift; sourceTree = "<group>"; };
+		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
+		F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F2D5AFB9257BC65600B21E6E /* Login */,
+				F2D5AFB7257BBFE500B21E6E /* NavigationView */,
 				F2623AF6257BB518006D91B7 /* ViewList */,
 				F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */,
 				F2623AE8257BB216006D91B7 /* ContentView.swift */,
@@ -78,6 +90,25 @@
 				F2623AF7257BB538006D91B7 /* ListView.swift */,
 			);
 			path = ViewList;
+			sourceTree = "<group>";
+		};
+		F2D5AFB7257BBFE500B21E6E /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				F2623AFB257BBC1F006D91B7 /* NaviLinkView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		F2D5AFB9257BC65600B21E6E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */,
+				F2D5AFBE257BC70400B21E6E /* Islogin.swift */,
+				F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */,
+				F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */,
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
+				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
+				F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */,
+				F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */,
+				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
