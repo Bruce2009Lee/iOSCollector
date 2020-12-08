@@ -14,10 +14,10 @@ class NumberCount: ObservableObject {
     var count:Int = 0
     
     func add() {
-        count = count + 1
+        count +=  1
     }
     
     func decrease() {
-        count = count - 1
+        count -= 1
     }
 }
