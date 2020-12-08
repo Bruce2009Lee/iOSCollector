@@ -9,7 +9,8 @@ import SwiftUI
 
 struct NumberView: View {
     
-    @ObservedObject var counter: NumberCount
+    @ObservedObject
+    var counter: NumberCount
     
     var body: some View {
         VStack {
