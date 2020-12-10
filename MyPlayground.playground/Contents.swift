@@ -1,18 +1,55 @@
 import UIKit
 
-// 该函数返回一个闭包；闭包将捕获travel中的变量
-func travel() -> (String) -> Void {
-    var counter = 1
+struct Person {
+    var name: String
 
-    return {
-        print("\(counter). I'm going to \($0)")
-        counter += 1
+    mutating func makeAnonymous() {
+        self.name = "Anonymous"
     }
 }
 
-// 函数的调用
-let result = travel()
-result("London")
-result("London")
-result("London")
+var person = Person(name: "Ed")
+person.makeAnonymous()
+//print(person.name)
 
+struct City {
+    var population: Int
+
+    func collectTaxes() -> Int {
+        return population * 1000
+    }
+}
+
+let london = City(population: 9_000_000)
+//print(london.collectTaxes())
+
+var toys = ["Woody"]
+
+
+class Singer {
+    var name = "Taylor Swift"
+}
+
+var singer = Singer()
+//print(singer.name)
+
+var singerCopy = singer
+singerCopy.name = "Justin Bieber"
+//print(singer.name)
+
+
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
+let beatles = Set(["John", "Paul", "George", "Ringo"])
+
+extension Collection {
+    func summarize() {
+        print("There are \(count) of us:")
+
+        for name in self {
+            print(name)
+        }
+    }
+}
+
+pythons.summarize()
+beatles.summarize()
