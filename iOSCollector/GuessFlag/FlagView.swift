@@ -10,18 +10,29 @@ import SwiftUI
 struct FlagView: View {
     
     @State var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
+    
     @State var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
     
+    @State private var score:Int = 0
+    
+    @State private var totalNumber:Int = 0
+    
     @State private var scoreTitle = ""
+    
+    @State private var msg = ""
     
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
+            self.score += 1
+            self.msg = "Your score is \(self.score)"
         } else {
             scoreTitle = "Wrong"
+            self.msg = "this is \(countries[number])"
         }
+        self.totalNumber += 1
         showingScore = true
     }
     
@@ -55,11 +66,16 @@ struct FlagView: View {
                             .shadow(color: .black, radius: 2)
                     }
                 }
+                
+                Section(header: Text("Total score").foregroundColor(.white)) {
+                    Text("\(self.score)/\(self.totalNumber)")
+                        .foregroundColor(.white)
+                }
                 Spacer()
             }
-           
+            
         }.alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")) {
+            Alert(title: Text(scoreTitle), message: Text(self.msg), dismissButton: .default(Text("Continue")) {
                 self.askQuestion()
             })
         }
