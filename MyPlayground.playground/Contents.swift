@@ -53,3 +53,8 @@ extension Collection {
 
 pythons.summarize()
 beatles.summarize()
+
+
+var score :Int = 3
+var rate = score/5 * 100
+
