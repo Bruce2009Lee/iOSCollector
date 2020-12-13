@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4A52585C50A00946C47 /* SimpleAnimationBinding.swift */; };
 		F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4A82585C70200946C47 /* SimpleThreeD.swift */; };
+		F218F4AE2585D88E00946C47 /* SimpleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4AD2585D88E00946C47 /* SimpleState.swift */; };
+		F218F4B22585E04300946C47 /* SimpleOndelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4B12585E04300946C47 /* SimpleOndelete.swift */; };
+		F218F4B52585E2D500946C47 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4B42585E2D500946C47 /* UserDefault.swift */; };
+		F218F4B92585E5BB00946C47 /* SimpleExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4B82585E5BB00946C47 /* SimpleExpense.swift */; };
+		F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4BC2585E5EA00946C47 /* ExpenseItem.swift */; };
+		F218F4C02585E62500946C47 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4BF2585E62500946C47 /* Expenses.swift */; };
 		F24B12F22584D53300BFF1D5 /* SectionBetterSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B12F12584D53300BFF1D5 /* SectionBetterSleepView.swift */; };
 		F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */; };
 		F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AE8257BB216006D91B7 /* ContentView.swift */; };
@@ -38,6 +44,7 @@
 		F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBE257BC70400B21E6E /* Islogin.swift */; };
 		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
 		F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */; };
+		F2E142592585E85700EFB91B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E142582585E85700EFB91B /* AddView.swift */; };
 		F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4A92584A268000E2428 /* SimpleStepperView.swift */; };
 		F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4AE2584B494000E2428 /* SimpleBetterSleepView.swift */; };
 		F2EFF4B32584B8AD000E2428 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */; };
@@ -46,6 +53,12 @@
 /* Begin PBXFileReference section */
 		F218F4A52585C50A00946C47 /* SimpleAnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationBinding.swift; sourceTree = "<group>"; };
 		F218F4A82585C70200946C47 /* SimpleThreeD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleThreeD.swift; sourceTree = "<group>"; };
+		F218F4AD2585D88E00946C47 /* SimpleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleState.swift; sourceTree = "<group>"; };
+		F218F4B12585E04300946C47 /* SimpleOndelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOndelete.swift; sourceTree = "<group>"; };
+		F218F4B42585E2D500946C47 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		F218F4B82585E5BB00946C47 /* SimpleExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExpense.swift; sourceTree = "<group>"; };
+		F218F4BC2585E5EA00946C47 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F218F4BF2585E62500946C47 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		F24B12F12584D53300BFF1D5 /* SectionBetterSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBetterSleepView.swift; sourceTree = "<group>"; };
 		F2623AE3257BB216006D91B7 /* iOSCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCollectorApp.swift; sourceTree = "<group>"; };
@@ -78,6 +91,7 @@
 		F2D5AFBE257BC70400B21E6E /* Islogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islogin.swift; sourceTree = "<group>"; };
 		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
 		F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondView.swift; sourceTree = "<group>"; };
+		F2E142582585E85700EFB91B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		F2EFF4A92584A268000E2428 /* SimpleStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStepperView.swift; sourceTree = "<group>"; };
 		F2EFF4AE2584B494000E2428 /* SimpleBetterSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBetterSleepView.swift; sourceTree = "<group>"; };
 		F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
@@ -94,6 +108,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F218F4AC2585D87B00946C47 /* StateUse */ = {
+			isa = PBXGroup;
+			children = (
+				F218F4AD2585D88E00946C47 /* SimpleState.swift */,
+				F218F4B12585E04300946C47 /* SimpleOndelete.swift */,
+				F218F4B42585E2D500946C47 /* UserDefault.swift */,
+			);
+			path = StateUse;
+			sourceTree = "<group>";
+		};
+		F218F4B72585E5AB00946C47 /* iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				F218F4B82585E5BB00946C47 /* SimpleExpense.swift */,
+				F218F4BC2585E5EA00946C47 /* ExpenseItem.swift */,
+				F218F4BF2585E62500946C47 /* Expenses.swift */,
+				F2E142582585E85700EFB91B /* AddView.swift */,
+			);
+			path = iExpense;
+			sourceTree = "<group>";
+		};
 		F2623ADA257BB216006D91B7 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +149,8 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F218F4B72585E5AB00946C47 /* iExpense */,
+				F218F4AC2585D87B00946C47 /* StateUse */,
 				F28495992585BF3800D5E85E /* Animation */,
 				F284958D2584E7AD00D5E85E /* WordScramble */,
 				F2EFF4AD2584B47D000E2428 /* BetterSleep */,
@@ -369,15 +406,19 @@
 			files = (
 				F27AD20D257E653100925DA5 /* EpisodesView.swift in Sources */,
 				F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */,
+				F218F4C02585E62500946C47 /* Expenses.swift in Sources */,
 				F27AD24B2583B45500925DA5 /* SimpleView.swift in Sources */,
 				F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */,
 				F27AD241258269EB00925DA5 /* SwiftAlertView.swift in Sources */,
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
 				F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */,
+				F218F4B22585E04300946C47 /* SimpleOndelete.swift in Sources */,
 				F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */,
+				F2E142592585E85700EFB91B /* AddView.swift in Sources */,
 				F27AD24725826C0C00925DA5 /* FlagView.swift in Sources */,
 				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
 				F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */,
+				F218F4B52585E2D500946C47 /* UserDefault.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
 				F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */,
 				F24B12F22584D53300BFF1D5 /* SectionBetterSleepView.swift in Sources */,
@@ -390,10 +431,13 @@
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
+				F218F4B92585E5BB00946C47 /* SimpleExpense.swift in Sources */,
+				F218F4AE2585D88E00946C47 /* SimpleState.swift in Sources */,
 				F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */,
 				F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
+				F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */,
 				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
 				F27AD2192581177200925DA5 /* FormView.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
