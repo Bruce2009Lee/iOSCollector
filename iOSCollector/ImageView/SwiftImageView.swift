@@ -9,14 +9,13 @@ import SwiftUI
 
 struct SwiftImageView: View {
     var body: some View {
-        Button(action: {
-            print("Edit button was tapped")
-        }) {
-            HStack(spacing: 10) {
-                Image(systemName: "pencil").renderingMode(.original)
-                Text("Edit")
+        
+        GeometryReader { geo in
+                Image("kala")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: geo.size.width)
             }
-        }
     }
 }
 

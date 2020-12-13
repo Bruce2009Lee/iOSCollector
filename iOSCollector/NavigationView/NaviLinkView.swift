@@ -10,9 +10,12 @@ import SwiftUI
 struct NaviLinkView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(destination:ListView()){
-                Text("Listview")
-            }.navigationBarTitle("你好",displayMode: .large)
+            List(0..<100) { row in
+                NavigationLink(destination: Text("Detail \(row)")) {
+                    Text("Row \(row)")
+                }
+            }
+            .navigationBarTitle("SwiftUI")
         }
     }
 }
