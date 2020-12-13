@@ -1,5 +1,5 @@
 //
-//  SimpleExpense.swift
+//  ChallengeExpense.swift
 //  iOSCollector
 //
 //  Created by lizhonglian on 2020/12/13.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SimpleExpense: View {
+struct ChallengeExpense: View {
     
     @ObservedObject var expenses = Expenses()
     
@@ -35,22 +35,24 @@ struct SimpleExpense: View {
                 }.onDelete(perform: removeItems)
             }
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
-                                    Button(action: {
-                                        self.showingAddExpense = true
-                                    }) {
-                                        Image(systemName: "plus")
-                                            .padding()
-                                    }
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing:
+                    Button(action: {
+                        self.showingAddExpense = true
+                    }) {
+                        Image(systemName: "plus")
+                            .padding()
+                    }
             )
         }.sheet(isPresented: $showingAddExpense) {
-            AddView(expenses: self.expenses)
+            AddViewChallenge(expenses: self.expenses)
         }
     }
 }
 
-struct SimpleExpense_Previews: PreviewProvider {
+struct ChallengeExpense_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleExpense()
+        ChallengeExpense()
     }
 }

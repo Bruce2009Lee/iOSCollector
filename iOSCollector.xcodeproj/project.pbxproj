@@ -45,6 +45,8 @@
 		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
 		F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */; };
 		F2E142592585E85700EFB91B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E142582585E85700EFB91B /* AddView.swift */; };
+		F2E1425D2586335B00EFB91B /* ChallengeExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1425C2586335B00EFB91B /* ChallengeExpense.swift */; };
+		F2E142602586344D00EFB91B /* AddViewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1425F2586344D00EFB91B /* AddViewChallenge.swift */; };
 		F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4A92584A268000E2428 /* SimpleStepperView.swift */; };
 		F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4AE2584B494000E2428 /* SimpleBetterSleepView.swift */; };
 		F2EFF4B32584B8AD000E2428 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */; };
@@ -92,6 +94,8 @@
 		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
 		F2D5AFC4257BC98F00B21E6E /* LoginSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondView.swift; sourceTree = "<group>"; };
 		F2E142582585E85700EFB91B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		F2E1425C2586335B00EFB91B /* ChallengeExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeExpense.swift; sourceTree = "<group>"; };
+		F2E1425F2586344D00EFB91B /* AddViewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewChallenge.swift; sourceTree = "<group>"; };
 		F2EFF4A92584A268000E2428 /* SimpleStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStepperView.swift; sourceTree = "<group>"; };
 		F2EFF4AE2584B494000E2428 /* SimpleBetterSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBetterSleepView.swift; sourceTree = "<group>"; };
 		F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				F218F4BC2585E5EA00946C47 /* ExpenseItem.swift */,
 				F218F4BF2585E62500946C47 /* Expenses.swift */,
 				F2E142582585E85700EFB91B /* AddView.swift */,
+				F2E1425C2586335B00EFB91B /* ChallengeExpense.swift */,
+				F2E1425F2586344D00EFB91B /* AddViewChallenge.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -412,6 +418,7 @@
 				F27AD241258269EB00925DA5 /* SwiftAlertView.swift in Sources */,
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
 				F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */,
+				F2E142602586344D00EFB91B /* AddViewChallenge.swift in Sources */,
 				F218F4B22585E04300946C47 /* SimpleOndelete.swift in Sources */,
 				F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */,
 				F2E142592585E85700EFB91B /* AddView.swift in Sources */,
@@ -435,6 +442,7 @@
 				F218F4AE2585D88E00946C47 /* SimpleState.swift in Sources */,
 				F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */,
 				F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */,
+				F2E1425D2586335B00EFB91B /* ChallengeExpense.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
 				F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */,
