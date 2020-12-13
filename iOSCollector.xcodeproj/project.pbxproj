@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4A52585C50A00946C47 /* SimpleAnimationBinding.swift */; };
+		F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218F4A82585C70200946C47 /* SimpleThreeD.swift */; };
 		F24B12F22584D53300BFF1D5 /* SectionBetterSleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B12F12584D53300BFF1D5 /* SectionBetterSleepView.swift */; };
 		F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */; };
 		F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2623AE8257BB216006D91B7 /* ContentView.swift */; };
@@ -28,6 +30,10 @@
 		F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD24F2583BE8500925DA5 /* SimpleGridView.swift */; };
 		F27AD2552584776E00925DA5 /* SimpleBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD2542584776E00925DA5 /* SimpleBindingView.swift */; };
 		F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD259258479CD00925DA5 /* GuessRockView.swift */; };
+		F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */; };
+		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
+		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
+		F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284959A2585BF5100D5E85E /* SimpleAnimation.swift */; };
 		F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */; };
 		F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBE257BC70400B21E6E /* Islogin.swift */; };
 		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
@@ -38,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F218F4A52585C50A00946C47 /* SimpleAnimationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationBinding.swift; sourceTree = "<group>"; };
+		F218F4A82585C70200946C47 /* SimpleThreeD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleThreeD.swift; sourceTree = "<group>"; };
 		F24B12F12584D53300BFF1D5 /* SectionBetterSleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBetterSleepView.swift; sourceTree = "<group>"; };
 		F2623AE3257BB216006D91B7 /* iOSCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2623AE6257BB216006D91B7 /* iOSCollectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCollectorApp.swift; sourceTree = "<group>"; };
@@ -62,6 +70,10 @@
 		F27AD24F2583BE8500925DA5 /* SimpleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridView.swift; sourceTree = "<group>"; };
 		F27AD2542584776E00925DA5 /* SimpleBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindingView.swift; sourceTree = "<group>"; };
 		F27AD259258479CD00925DA5 /* GuessRockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessRockView.swift; sourceTree = "<group>"; };
+		F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordScramble.swift; sourceTree = "<group>"; };
+		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
+		F284959A2585BF5100D5E85E /* SimpleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimation.swift; sourceTree = "<group>"; };
 		F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstView.swift; sourceTree = "<group>"; };
 		F2D5AFBE257BC70400B21E6E /* Islogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islogin.swift; sourceTree = "<group>"; };
 		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
@@ -102,6 +114,8 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F28495992585BF3800D5E85E /* Animation */,
+				F284958D2584E7AD00D5E85E /* WordScramble */,
 				F2EFF4AD2584B47D000E2428 /* BetterSleep */,
 				F2EFF4A82584A24E000E2428 /* StepperView */,
 				F27AD258258479B100925DA5 /* GuessRock */,
@@ -121,6 +135,7 @@
 				F2623AE8257BB216006D91B7 /* ContentView.swift */,
 				F2623AEA257BB217006D91B7 /* Assets.xcassets */,
 				F2623AEF257BB217006D91B7 /* Info.plist */,
+				F28495932584EA4D00D5E85E /* start.txt */,
 				F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */,
 				F2623AEC257BB217006D91B7 /* Preview Content */,
 			);
@@ -227,6 +242,25 @@
 			path = GuessRock;
 			sourceTree = "<group>";
 		};
+		F284958D2584E7AD00D5E85E /* WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */,
+				F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */,
+			);
+			path = WordScramble;
+			sourceTree = "<group>";
+		};
+		F28495992585BF3800D5E85E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F284959A2585BF5100D5E85E /* SimpleAnimation.swift */,
+				F218F4A52585C50A00946C47 /* SimpleAnimationBinding.swift */,
+				F218F4A82585C70200946C47 /* SimpleThreeD.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		F2D5AFB7257BBFE500B21E6E /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2623AEE257BB217006D91B7 /* Preview Assets.xcassets in Resources */,
+				F28495942584EA4D00D5E85E /* start.txt in Resources */,
 				F2623AEB257BB217006D91B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,8 +373,11 @@
 				F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */,
 				F27AD241258269EB00925DA5 /* SwiftAlertView.swift in Sources */,
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
+				F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */,
+				F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */,
 				F27AD24725826C0C00925DA5 /* FlagView.swift in Sources */,
 				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
+				F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
 				F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */,
 				F24B12F22584D53300BFF1D5 /* SectionBetterSleepView.swift in Sources */,
@@ -349,12 +387,14 @@
 				F27AD209257E650300925DA5 /* PodcastPlayer.swift in Sources */,
 				F27AD210257E669300925DA5 /* NumberCount.swift in Sources */,
 				F27AD205257D1B3A00925DA5 /* MyModelObject.swift in Sources */,
+				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
 				F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */,
 				F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
+				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
 				F27AD2192581177200925DA5 /* FormView.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 				F27AD213257E677700925DA5 /* NumberView.swift in Sources */,
