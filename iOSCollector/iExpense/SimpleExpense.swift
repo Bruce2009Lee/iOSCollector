@@ -13,6 +13,7 @@ struct SimpleExpense: View {
     
     @State private var showingAddExpense = false
     
+    // 删除条目的方法
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
@@ -39,6 +40,7 @@ struct SimpleExpense: View {
                                         self.showingAddExpense = true
                                     }) {
                                         Image(systemName: "plus")
+                                            .padding()
                                     }
             )
         }.sheet(isPresented: $showingAddExpense) {

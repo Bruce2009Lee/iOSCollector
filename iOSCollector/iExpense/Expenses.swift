@@ -11,9 +11,12 @@ import Combine
 
 class Expenses: ObservableObject {
     
-    @Published var items = [ExpenseItem]() {
+    @Published
+    var items = [ExpenseItem]() {
         didSet {
             let encoder = JSONEncoder()
+            
+            //当 items 中的数据发生变化，就存入到 UserDefaults中
             if let encoded = try? encoder.encode(items) {
                 UserDefaults.standard.set(encoded, forKey: "Items")
             }

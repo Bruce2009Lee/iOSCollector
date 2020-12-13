@@ -13,6 +13,7 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = ""
     
+    // 在不同的View里面传送数据，需要使用 ObservedObject
     @ObservedObject var expenses: Expenses
     
     @Environment(\.presentationMode) var presentationMode
