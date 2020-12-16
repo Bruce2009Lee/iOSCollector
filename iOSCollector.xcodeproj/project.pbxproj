@@ -38,6 +38,7 @@
 		F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD259258479CD00925DA5 /* GuessRockView.swift */; };
 		F27FE5F225879E9B00EAC019 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F125879E9B00EAC019 /* MissionView.swift */; };
 		F27FE5F52587A17100EAC019 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F42587A17100EAC019 /* AstronautView.swift */; };
+		F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */; };
 		F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */; };
 		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
 		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
@@ -96,6 +97,7 @@
 		F27AD259258479CD00925DA5 /* GuessRockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessRockView.swift; sourceTree = "<group>"; };
 		F27FE5F125879E9B00EAC019 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		F27FE5F42587A17100EAC019 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMoonshot.swift; sourceTree = "<group>"; };
 		F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordScramble.swift; sourceTree = "<group>"; };
 		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				F27FE5F42587A17100EAC019 /* AstronautView.swift */,
 				F27FE5F125879E9B00EAC019 /* MissionView.swift */,
 				F2D71B3225879525008E973F /* Mission.swift */,
+				F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */,
 			);
 			path = MoonShot;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				F27AD209257E650300925DA5 /* PodcastPlayer.swift in Sources */,
 				F27AD210257E669300925DA5 /* NumberCount.swift in Sources */,
 				F27AD205257D1B3A00925DA5 /* MyModelObject.swift in Sources */,
+				F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */,
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,

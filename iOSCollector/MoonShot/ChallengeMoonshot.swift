@@ -1,13 +1,13 @@
 //
-//  SimpleMoonshotView.swift
+//  ChallengeMoonshot.swift
 //  iOSCollector
 //
-//  Created by lizhonglian on 2020/12/14.
+//  Created by lizhonglian on 2020/12/16.
 //
 
 import SwiftUI
 
-struct SimpleMoonshotView: View {
+struct ChallengeMoonshot: View {
     
     private let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
     
@@ -35,8 +35,8 @@ struct SimpleMoonshotView: View {
     }
 }
 
-struct SimpleMoonshotView_Previews: PreviewProvider {
+struct ChallengeMoonshot_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleMoonshotView()
+        ChallengeMoonshot()
     }
 }
