@@ -1,16 +1,16 @@
 import UIKit
 
-struct Person {
-    var name: String
-
-    mutating func makeAnonymous() {
-        self.name = "Anonymous"
-    }
-}
-
-var person = Person(name: "Ed")
-person.makeAnonymous()
-//print(person.name)
+//struct Person {
+//    var name: String
+//
+//    mutating func makeAnonymous() {
+//        self.name = "Anonymous"
+//    }
+//}
+//
+//var person = Person(name: "Ed")
+//person.makeAnonymous()
+////print(person.name)
 
 struct City {
     var population: Int
@@ -41,20 +41,76 @@ singerCopy.name = "Justin Bieber"
 let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 let beatles = Set(["John", "Paul", "George", "Ringo"])
 
-extension Collection {
-    func summarize() {
-        print("There are \(count) of us:")
+//extension Collection {
+//    func summarize() {
+//        print("There are \(count) of us:")
+//
+//        for name in self {
+//            print(name)
+//        }
+//    }
+//}
 
-        for name in self {
-            print(name)
-        }
+
+//
+//var score :Int = 3
+//var rate = score/5 * 100
+//
+//
+//class SurveyQuestion {
+//    let text: String
+//
+//    var response: String?
+//
+//      // 给常量存储属性赋值
+//    init(text: String) {
+//        self.text = text
+//    }
+//
+//    func ask() {
+//        print(text)
+//    }
+
+
+// 1.定义类
+class Person {
+    var name : String
+    var dog : Dog?
+
+    init(name : String) {
+        self.name = name
     }
 }
 
-pythons.summarize()
-beatles.summarize()
+class Dog {
+    var color : String
+    var toy : Toy?
 
+    init(color : String) {
+        self.color = color
+    }
 
-var score :Int = 3
-var rate = score/5 * 100
+    func runing() {
+        print("跑起来")
+    }
+}
+
+class Toy {
+    var price : Double = 0.0
+}
+
+let person = Person(name: "小明")
+let dog = Dog(color: "yellow")
+let toy = Toy()
+toy.price = 100.0
+
+// 2.2.设置对象之间的关系
+person.dog = dog
+dog.toy = toy
+
+let price = person.dog?.toy?.price
+print(price) // Optional(100.0)\n
+
+person.dog?.toy = Toy()
+person.dog?.runing()
 
