@@ -44,6 +44,20 @@
 		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
 		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
 		F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284959A2585BF5100D5E85E /* SimpleAnimation.swift */; };
+		F2B19CA9258F2A3D000650FC /* SimpleDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CA8258F2A3D000650FC /* SimpleDraw.swift */; };
+		F2B19CAC258F2C87000650FC /* SimpleShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CAB258F2C87000650FC /* SimpleShapeStyle.swift */; };
+		F2B19CAF258F2D3C000650FC /* SimpleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CAE258F2D3C000650FC /* SimpleShape.swift */; };
+		F2B19CB2258F3095000650FC /* SimpleCG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CB1258F3095000650FC /* SimpleCG.swift */; };
+		F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CB4258F3267000650FC /* SimpleImagePaint.swift */; };
+		F2B19CB8258F3422000650FC /* SimpleMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CB7258F3422000650FC /* SimpleMetal.swift */; };
+		F2B19CBB258F35AC000650FC /* SimpleSpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CBA258F35AC000650FC /* SimpleSpecialEffect.swift */; };
+		F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CBD258F366D000650FC /* SimpleTrapezoid.swift */; };
+		F2B19CC2258F56F2000650FC /* SimpleCupcake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CC1258F56F2000650FC /* SimpleCupcake.swift */; };
+		F2B19CC6258F58A4000650FC /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CC5258F58A4000650FC /* Songs.swift */; };
+		F2B19CC9258F6871000650FC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CC8258F6871000650FC /* Order.swift */; };
+		F2B19CCC258F6A46000650FC /* CupCakeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CCB258F6A46000650FC /* CupCakeEntry.swift */; };
+		F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CCE258F6C33000650FC /* AddressView.swift */; };
+		F2B19CD2258F6CBE000650FC /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CD1258F6CBE000650FC /* CheckoutView.swift */; };
 		F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */; };
 		F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBE257BC70400B21E6E /* Islogin.swift */; };
 		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
@@ -104,6 +118,20 @@
 		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
 		F284959A2585BF5100D5E85E /* SimpleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimation.swift; sourceTree = "<group>"; };
+		F2B19CA8258F2A3D000650FC /* SimpleDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDraw.swift; sourceTree = "<group>"; };
+		F2B19CAB258F2C87000650FC /* SimpleShapeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShapeStyle.swift; sourceTree = "<group>"; };
+		F2B19CAE258F2D3C000650FC /* SimpleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleShape.swift; sourceTree = "<group>"; };
+		F2B19CB1258F3095000650FC /* SimpleCG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCG.swift; sourceTree = "<group>"; };
+		F2B19CB4258F3267000650FC /* SimpleImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImagePaint.swift; sourceTree = "<group>"; };
+		F2B19CB7258F3422000650FC /* SimpleMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMetal.swift; sourceTree = "<group>"; };
+		F2B19CBA258F35AC000650FC /* SimpleSpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSpecialEffect.swift; sourceTree = "<group>"; };
+		F2B19CBD258F366D000650FC /* SimpleTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTrapezoid.swift; sourceTree = "<group>"; };
+		F2B19CC1258F56F2000650FC /* SimpleCupcake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCupcake.swift; sourceTree = "<group>"; };
+		F2B19CC5258F58A4000650FC /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		F2B19CC8258F6871000650FC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F2B19CCB258F6A46000650FC /* CupCakeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeEntry.swift; sourceTree = "<group>"; };
+		F2B19CCE258F6C33000650FC /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		F2B19CD1258F6CBE000650FC /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstView.swift; sourceTree = "<group>"; };
 		F2D5AFBE257BC70400B21E6E /* Islogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islogin.swift; sourceTree = "<group>"; };
 		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
@@ -177,6 +205,8 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F2B19CC0258F56CF000650FC /* CupcakeCorner */,
+				F2B19CA7258F2A2B000650FC /* Draw */,
 				F2D71B1F2587919A008E973F /* MoonShot */,
 				F218F4B72585E5AB00946C47 /* iExpense */,
 				F218F4AC2585D87B00946C47 /* StateUse */,
@@ -330,6 +360,34 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		F2B19CA7258F2A2B000650FC /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				F2B19CA8258F2A3D000650FC /* SimpleDraw.swift */,
+				F2B19CB4258F3267000650FC /* SimpleImagePaint.swift */,
+				F2B19CBA258F35AC000650FC /* SimpleSpecialEffect.swift */,
+				F2B19CB7258F3422000650FC /* SimpleMetal.swift */,
+				F2B19CAB258F2C87000650FC /* SimpleShapeStyle.swift */,
+				F2B19CAE258F2D3C000650FC /* SimpleShape.swift */,
+				F2B19CB1258F3095000650FC /* SimpleCG.swift */,
+				F2B19CBD258F366D000650FC /* SimpleTrapezoid.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		F2B19CC0258F56CF000650FC /* CupcakeCorner */ = {
+			isa = PBXGroup;
+			children = (
+				F2B19CC1258F56F2000650FC /* SimpleCupcake.swift */,
+				F2B19CC8258F6871000650FC /* Order.swift */,
+				F2B19CCE258F6C33000650FC /* AddressView.swift */,
+				F2B19CC5258F58A4000650FC /* Songs.swift */,
+				F2B19CCB258F6A46000650FC /* CupCakeEntry.swift */,
+				F2B19CD1258F6CBE000650FC /* CheckoutView.swift */,
+			);
+			path = CupcakeCorner;
+			sourceTree = "<group>";
+		};
 		F2D5AFB7257BBFE500B21E6E /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +515,8 @@
 				F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */,
 				F218F4C02585E62500946C47 /* Expenses.swift in Sources */,
 				F2D71B2A258792A3008E973F /* Astronaut.swift in Sources */,
+				F2B19CC6258F58A4000650FC /* Songs.swift in Sources */,
+				F2B19CB8258F3422000650FC /* SimpleMetal.swift in Sources */,
 				F2D71B2D258792FB008E973F /* Bundle-Decodable.swift in Sources */,
 				F27AD24B2583B45500925DA5 /* SimpleView.swift in Sources */,
 				F2D5AFC5257BC98F00B21E6E /* LoginSecondView.swift in Sources */,
@@ -468,6 +528,7 @@
 				F218F4B22585E04300946C47 /* SimpleOndelete.swift in Sources */,
 				F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */,
 				F2E142592585E85700EFB91B /* AddView.swift in Sources */,
+				F2B19CD2258F6CBE000650FC /* CheckoutView.swift in Sources */,
 				F27AD24725826C0C00925DA5 /* FlagView.swift in Sources */,
 				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
 				F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */,
@@ -478,15 +539,23 @@
 				F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */,
 				F27AD2552584776E00925DA5 /* SimpleBindingView.swift in Sources */,
 				F2EFF4B32584B8AD000E2428 /* SleepCalculator.mlmodel in Sources */,
+				F2B19CB2258F3095000650FC /* SimpleCG.swift in Sources */,
 				F27AD209257E650300925DA5 /* PodcastPlayer.swift in Sources */,
+				F2B19CBB258F35AC000650FC /* SimpleSpecialEffect.swift in Sources */,
 				F27AD210257E669300925DA5 /* NumberCount.swift in Sources */,
 				F27AD205257D1B3A00925DA5 /* MyModelObject.swift in Sources */,
 				F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */,
+				F2B19CC2258F56F2000650FC /* SimpleCupcake.swift in Sources */,
+				F2B19CAC258F2C87000650FC /* SimpleShapeStyle.swift in Sources */,
 				F27FE5FB258A3E5100EAC019 /* ChallengeAstronautView.swift in Sources */,
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
+				F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
+				F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */,
+				F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
 				F2D71B1D258657A4008E973F /* SimpleScrollView.swift in Sources */,
+				F2B19CC9258F6871000650FC /* Order.swift in Sources */,
 				F218F4B92585E5BB00946C47 /* SimpleExpense.swift in Sources */,
 				F218F4AE2585D88E00946C47 /* SimpleState.swift in Sources */,
 				F27FE5F225879E9B00EAC019 /* MissionView.swift in Sources */,
@@ -495,11 +564,14 @@
 				F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */,
 				F2E1425D2586335B00EFB91B /* ChallengeExpense.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
+				F2B19CAF258F2D3C000650FC /* SimpleShape.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
 				F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */,
 				F2D71B3025879474008E973F /* SimpleMoonshotView.swift in Sources */,
+				F2B19CCC258F6A46000650FC /* CupCakeEntry.swift in Sources */,
 				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
 				F27AD2192581177200925DA5 /* FormView.swift in Sources */,
+				F2B19CA9258F2A3D000650FC /* SimpleDraw.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 				F27AD213257E677700925DA5 /* NumberView.swift in Sources */,
 			);
