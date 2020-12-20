@@ -12,6 +12,8 @@ struct CheckoutView: View {
     
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
+    @State private var msgTitle = "温馨提示"
+    
     
     func placeOrder() {
         
@@ -29,12 +31,15 @@ struct CheckoutView: View {
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
                 print("No data in response: \(error?.localizedDescription ?? "Unknown error").")
+                self.confirmationMessage = "请检查你的网络连接，并稍后重试"
+                self.showingConfirmation = true
                 return
             }
             
             if let decodedOrder = try? JSONDecoder().decode(Order.self, from: data) {
                 self.confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
                 self.showingConfirmation = true
+                
             } else {
                 print("Invalid response from server")
             }
@@ -59,7 +64,7 @@ struct CheckoutView: View {
                     .padding()
                 }
             }.alert(isPresented: $showingConfirmation) {
-                Alert(title: Text("Thank you!"), message: Text(confirmationMessage), dismissButton: .default(Text("OK")))
+                Alert(title: Text(msgTitle), message: Text(confirmationMessage), dismissButton: .default(Text("OK")))
             }
         }
         .navigationBarTitle("Check out", displayMode: .inline)
