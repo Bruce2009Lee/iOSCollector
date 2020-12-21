@@ -58,6 +58,12 @@
 		F2B19CCC258F6A46000650FC /* CupCakeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CCB258F6A46000650FC /* CupCakeEntry.swift */; };
 		F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CCE258F6C33000650FC /* AddressView.swift */; };
 		F2B19CD2258F6CBE000650FC /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CD1258F6CBE000650FC /* CheckoutView.swift */; };
+		F2B19CD8258F921C000650FC /* Project11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CD6258F921C000650FC /* Project11.xcdatamodeld */; };
+		F2B19CDB258F927F000650FC /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CDA258F927F000650FC /* AddBookView.swift */; };
+		F2B19CDE258F9377000650FC /* SimpleBookworm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CDD258F9377000650FC /* SimpleBookworm.swift */; };
+		F2B19CE1258F94BF000650FC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CE0258F94BF000650FC /* RatingView.swift */; };
+		F2B19CE525905534000650FC /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CE425905534000650FC /* EmojiRatingView.swift */; };
+		F2B19CE82590564F000650FC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B19CE72590564F000650FC /* DetailView.swift */; };
 		F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */; };
 		F2D5AFBF257BC70400B21E6E /* Islogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFBE257BC70400B21E6E /* Islogin.swift */; };
 		F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */; };
@@ -132,6 +138,12 @@
 		F2B19CCB258F6A46000650FC /* CupCakeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeEntry.swift; sourceTree = "<group>"; };
 		F2B19CCE258F6C33000650FC /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		F2B19CD1258F6CBE000650FC /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		F2B19CD7258F921C000650FC /* Project11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project11.xcdatamodel; sourceTree = "<group>"; };
+		F2B19CDA258F927F000650FC /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		F2B19CDD258F9377000650FC /* SimpleBookworm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBookworm.swift; sourceTree = "<group>"; };
+		F2B19CE0258F94BF000650FC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		F2B19CE425905534000650FC /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		F2B19CE72590564F000650FC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F2D5AFBA257BC67E00B21E6E /* LoginFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstView.swift; sourceTree = "<group>"; };
 		F2D5AFBE257BC70400B21E6E /* Islogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islogin.swift; sourceTree = "<group>"; };
 		F2D5AFC1257BC8A700B21E6E /* LoginrootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginrootView.swift; sourceTree = "<group>"; };
@@ -205,6 +217,7 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F2B19CD5258F91C1000650FC /* Bookworm */,
 				F2B19CC0258F56CF000650FC /* CupcakeCorner */,
 				F2B19CA7258F2A2B000650FC /* Draw */,
 				F2D71B1F2587919A008E973F /* MoonShot */,
@@ -232,6 +245,7 @@
 				F2623AEA257BB217006D91B7 /* Assets.xcassets */,
 				F2623AEF257BB217006D91B7 /* Info.plist */,
 				F28495932584EA4D00D5E85E /* start.txt */,
+				F2B19CD6258F921C000650FC /* Project11.xcdatamodeld */,
 				F2D71B21258791DF008E973F /* astronauts.json */,
 				F2D71B20258791DF008E973F /* missions.json */,
 				F2EFF4B22584B8AD000E2428 /* SleepCalculator.mlmodel */,
@@ -388,6 +402,18 @@
 			path = CupcakeCorner;
 			sourceTree = "<group>";
 		};
+		F2B19CD5258F91C1000650FC /* Bookworm */ = {
+			isa = PBXGroup;
+			children = (
+				F2B19CDA258F927F000650FC /* AddBookView.swift */,
+				F2B19CE0258F94BF000650FC /* RatingView.swift */,
+				F2B19CDD258F9377000650FC /* SimpleBookworm.swift */,
+				F2B19CE425905534000650FC /* EmojiRatingView.swift */,
+				F2B19CE72590564F000650FC /* DetailView.swift */,
+			);
+			path = Bookworm;
+			sourceTree = "<group>";
+		};
 		F2D5AFB7257BBFE500B21E6E /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +541,7 @@
 				F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */,
 				F218F4C02585E62500946C47 /* Expenses.swift in Sources */,
 				F2D71B2A258792A3008E973F /* Astronaut.swift in Sources */,
+				F2B19CE525905534000650FC /* EmojiRatingView.swift in Sources */,
 				F2B19CC6258F58A4000650FC /* Songs.swift in Sources */,
 				F2B19CB8258F3422000650FC /* SimpleMetal.swift in Sources */,
 				F2D71B2D258792FB008E973F /* Bundle-Decodable.swift in Sources */,
@@ -532,6 +559,7 @@
 				F27AD24725826C0C00925DA5 /* FlagView.swift in Sources */,
 				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
 				F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */,
+				F2B19CDE258F9377000650FC /* SimpleBookworm.swift in Sources */,
 				F218F4B52585E2D500946C47 /* UserDefault.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
 				F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */,
@@ -549,11 +577,14 @@
 				F2B19CAC258F2C87000650FC /* SimpleShapeStyle.swift in Sources */,
 				F27FE5FB258A3E5100EAC019 /* ChallengeAstronautView.swift in Sources */,
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
+				F2B19CE82590564F000650FC /* DetailView.swift in Sources */,
 				F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */,
+				F2B19CD8258F921C000650FC /* Project11.xcdatamodeld in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
 				F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */,
 				F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
+				F2B19CDB258F927F000650FC /* AddBookView.swift in Sources */,
 				F2D71B1D258657A4008E973F /* SimpleScrollView.swift in Sources */,
 				F2B19CC9258F6871000650FC /* Order.swift in Sources */,
 				F218F4B92585E5BB00946C47 /* SimpleExpense.swift in Sources */,
@@ -572,6 +603,7 @@
 				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
 				F27AD2192581177200925DA5 /* FormView.swift in Sources */,
 				F2B19CA9258F2A3D000650FC /* SimpleDraw.swift in Sources */,
+				F2B19CE1258F94BF000650FC /* RatingView.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 				F27AD213257E677700925DA5 /* NumberView.swift in Sources */,
 			);
@@ -762,6 +794,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2B19CD6258F921C000650FC /* Project11.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2B19CD7258F921C000650FC /* Project11.xcdatamodel */,
+			);
+			currentVersion = F2B19CD7258F921C000650FC /* Project11.xcdatamodel */;
+			path = Project11.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2623ADB257BB216006D91B7 /* Project object */;
 }
