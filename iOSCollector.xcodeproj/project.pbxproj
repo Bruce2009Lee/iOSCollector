@@ -40,6 +40,7 @@
 		F27FE5F52587A17100EAC019 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F42587A17100EAC019 /* AstronautView.swift */; };
 		F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */; };
 		F27FE5FB258A3E5100EAC019 /* ChallengeAstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5FA258A3E5100EAC019 /* ChallengeAstronautView.swift */; };
+		F283DC18259068E800E14304 /* SimpleBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC17259068E800E14304 /* SimpleBindView.swift */; };
 		F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */; };
 		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
 		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
@@ -120,6 +121,7 @@
 		F27FE5F42587A17100EAC019 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMoonshot.swift; sourceTree = "<group>"; };
 		F27FE5FA258A3E5100EAC019 /* ChallengeAstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAstronautView.swift; sourceTree = "<group>"; };
+		F283DC17259068E800E14304 /* SimpleBindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindView.swift; sourceTree = "<group>"; };
 		F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordScramble.swift; sourceTree = "<group>"; };
 		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F283DC162590688A00E14304 /* SimpleBind */,
 				F2B19CD5258F91C1000650FC /* Bookworm */,
 				F2B19CC0258F56CF000650FC /* CupcakeCorner */,
 				F2B19CA7258F2A2B000650FC /* Draw */,
@@ -353,6 +356,14 @@
 				F27AD259258479CD00925DA5 /* GuessRockView.swift */,
 			);
 			path = GuessRock;
+			sourceTree = "<group>";
+		};
+		F283DC162590688A00E14304 /* SimpleBind */ = {
+			isa = PBXGroup;
+			children = (
+				F283DC17259068E800E14304 /* SimpleBindView.swift */,
+			);
+			path = SimpleBind;
 			sourceTree = "<group>";
 		};
 		F284958D2584E7AD00D5E85E /* WordScramble */ = {
@@ -596,6 +607,7 @@
 				F2E1425D2586335B00EFB91B /* ChallengeExpense.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F2B19CAF258F2D3C000650FC /* SimpleShape.swift in Sources */,
+				F283DC18259068E800E14304 /* SimpleBindView.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
 				F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */,
 				F2D71B3025879474008E973F /* SimpleMoonshotView.swift in Sources */,
