@@ -44,6 +44,10 @@
 		F283DC492597490600E14304 /* SimpleInstaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC482597490600E14304 /* SimpleInstaFilter.swift */; };
 		F283DC4C2597551C00E14304 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC4B2597551C00E14304 /* SimpleAlert.swift */; };
 		F283DC4F2597552A00E14304 /* SimpleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC4E2597552A00E14304 /* SimpleSheet.swift */; };
+		F283DC5225975F7200E14304 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC5125975F7200E14304 /* ImagePicker.swift */; };
+		F283DC5B25976A7300E14304 /* BasicInstaFiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC5A25976A7300E14304 /* BasicInstaFiler.swift */; };
+		F283DC5E25976B3600E14304 /* MyImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC5D25976B3600E14304 /* MyImagePicker.swift */; };
+		F283DC612597704400E14304 /* MyImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC602597704400E14304 /* MyImageSaver.swift */; };
 		F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */; };
 		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
 		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
@@ -128,6 +132,10 @@
 		F283DC482597490600E14304 /* SimpleInstaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInstaFilter.swift; sourceTree = "<group>"; };
 		F283DC4B2597551C00E14304 /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
 		F283DC4E2597552A00E14304 /* SimpleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSheet.swift; sourceTree = "<group>"; };
+		F283DC5125975F7200E14304 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F283DC5A25976A7300E14304 /* BasicInstaFiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInstaFiler.swift; sourceTree = "<group>"; };
+		F283DC5D25976B3600E14304 /* MyImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePicker.swift; sourceTree = "<group>"; };
+		F283DC602597704400E14304 /* MyImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageSaver.swift; sourceTree = "<group>"; };
 		F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordScramble.swift; sourceTree = "<group>"; };
 		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
@@ -377,8 +385,12 @@
 			isa = PBXGroup;
 			children = (
 				F283DC482597490600E14304 /* SimpleInstaFilter.swift */,
+				F283DC602597704400E14304 /* MyImageSaver.swift */,
+				F283DC5125975F7200E14304 /* ImagePicker.swift */,
 				F283DC4B2597551C00E14304 /* SimpleAlert.swift */,
 				F283DC4E2597552A00E14304 /* SimpleSheet.swift */,
+				F283DC5A25976A7300E14304 /* BasicInstaFiler.swift */,
+				F283DC5D25976B3600E14304 /* MyImagePicker.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -605,13 +617,16 @@
 				F2B19CC2258F56F2000650FC /* SimpleCupcake.swift in Sources */,
 				F2B19CAC258F2C87000650FC /* SimpleShapeStyle.swift in Sources */,
 				F27FE5FB258A3E5100EAC019 /* ChallengeAstronautView.swift in Sources */,
+				F283DC5B25976A7300E14304 /* BasicInstaFiler.swift in Sources */,
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
 				F2B19CE82590564F000650FC /* DetailView.swift in Sources */,
 				F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */,
 				F2B19CD8258F921C000650FC /* Project11.xcdatamodeld in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
+				F283DC5225975F7200E14304 /* ImagePicker.swift in Sources */,
 				F283DC492597490600E14304 /* SimpleInstaFilter.swift in Sources */,
 				F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */,
+				F283DC5E25976B3600E14304 /* MyImagePicker.swift in Sources */,
 				F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
 				F2B19CDB258F927F000650FC /* AddBookView.swift in Sources */,
@@ -635,6 +650,7 @@
 				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
 				F27AD2192581177200925DA5 /* FormView.swift in Sources */,
 				F2B19CA9258F2A3D000650FC /* SimpleDraw.swift in Sources */,
+				F283DC612597704400E14304 /* MyImageSaver.swift in Sources */,
 				F2B19CE1258F94BF000650FC /* RatingView.swift in Sources */,
 				F2623AF8257BB538006D91B7 /* ListView.swift in Sources */,
 				F27AD213257E677700925DA5 /* NumberView.swift in Sources */,

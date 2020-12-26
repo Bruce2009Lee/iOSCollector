@@ -6,26 +6,48 @@
 //
 
 import SwiftUI
+import CoreImage
+import CoreImage.CIFilterBuiltins
 
 struct SimpleInstaFilter: View {
-    @State private var showingActionSheet = false
-    @State private var backgroundColor = Color.white
+    @State private var image: Image?
+    @State private var showingImagePicker = false
+    @State private var inputImage: UIImage?
+    
+    func loadImage() {
+        guard let inputImage = inputImage else { return }
+        image = Image(uiImage: inputImage)
+        
+        
+        let imageSaver = ImageSaver()
+        imageSaver.writeToPhotoAlbum(image: inputImage)
+    }
     
     var body: some View {
-        Text("Hello, World!")
-            .frame(width: 300, height: 300)
-            .background(backgroundColor)
-            .onTapGesture {
-                self.showingActionSheet = true
+        VStack {
+            image?
+                .resizable()
+                .scaledToFit()
+            
+            Button("Select Image") {
+                self.showingImagePicker = true
             }
-            .actionSheet(isPresented: $showingActionSheet) {
-                ActionSheet(title: Text("Change background"), message: Text("Select a new color"), buttons: [
-                    .default(Text("Red")) { self.backgroundColor = .red },
-                    .default(Text("Green")) { self.backgroundColor = .green },
-                    .default(Text("Blue")) { self.backgroundColor = .blue },
-                    .cancel()
-                ])
-            }
+        }
+        .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
+            ImagePicker(image: self.$inputImage)
+        }
+        
+    }
+}
+
+
+class ImageSaver: NSObject {
+    func writeToPhotoAlbum(image: UIImage) {
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(saveError), nil)
+    }
+
+    @objc func saveError(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        print("Save finished!")
     }
 }
 
