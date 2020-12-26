@@ -31,7 +31,6 @@ struct SimpleBookworm: View {
         try? moc.save()
     }
     
-    
     var body: some View {
         
         NavigationView {

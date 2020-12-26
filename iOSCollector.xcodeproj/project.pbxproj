@@ -41,6 +41,9 @@
 		F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */; };
 		F27FE5FB258A3E5100EAC019 /* ChallengeAstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5FA258A3E5100EAC019 /* ChallengeAstronautView.swift */; };
 		F283DC18259068E800E14304 /* SimpleBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC17259068E800E14304 /* SimpleBindView.swift */; };
+		F283DC492597490600E14304 /* SimpleInstaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC482597490600E14304 /* SimpleInstaFilter.swift */; };
+		F283DC4C2597551C00E14304 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC4B2597551C00E14304 /* SimpleAlert.swift */; };
+		F283DC4F2597552A00E14304 /* SimpleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283DC4E2597552A00E14304 /* SimpleSheet.swift */; };
 		F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */; };
 		F28495942584EA4D00D5E85E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F28495932584EA4D00D5E85E /* start.txt */; };
 		F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */; };
@@ -122,6 +125,9 @@
 		F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMoonshot.swift; sourceTree = "<group>"; };
 		F27FE5FA258A3E5100EAC019 /* ChallengeAstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAstronautView.swift; sourceTree = "<group>"; };
 		F283DC17259068E800E14304 /* SimpleBindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindView.swift; sourceTree = "<group>"; };
+		F283DC482597490600E14304 /* SimpleInstaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleInstaFilter.swift; sourceTree = "<group>"; };
+		F283DC4B2597551C00E14304 /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		F283DC4E2597552A00E14304 /* SimpleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSheet.swift; sourceTree = "<group>"; };
 		F284958E2584E7DE00D5E85E /* SimpleWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordScramble.swift; sourceTree = "<group>"; };
 		F28495932584EA4D00D5E85E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F28495962584F60B00D5E85E /* ChallengeWordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeWordScramble.swift; sourceTree = "<group>"; };
@@ -219,6 +225,7 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F283DC47259748DF00E14304 /* Instafilter */,
 				F283DC162590688A00E14304 /* SimpleBind */,
 				F2B19CD5258F91C1000650FC /* Bookworm */,
 				F2B19CC0258F56CF000650FC /* CupcakeCorner */,
@@ -364,6 +371,16 @@
 				F283DC17259068E800E14304 /* SimpleBindView.swift */,
 			);
 			path = SimpleBind;
+			sourceTree = "<group>";
+		};
+		F283DC47259748DF00E14304 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				F283DC482597490600E14304 /* SimpleInstaFilter.swift */,
+				F283DC4B2597551C00E14304 /* SimpleAlert.swift */,
+				F283DC4E2597552A00E14304 /* SimpleSheet.swift */,
+			);
+			path = Instafilter;
 			sourceTree = "<group>";
 		};
 		F284958D2584E7AD00D5E85E /* WordScramble */ = {
@@ -554,6 +571,7 @@
 				F2D71B2A258792A3008E973F /* Astronaut.swift in Sources */,
 				F2B19CE525905534000650FC /* EmojiRatingView.swift in Sources */,
 				F2B19CC6258F58A4000650FC /* Songs.swift in Sources */,
+				F283DC4C2597551C00E14304 /* SimpleAlert.swift in Sources */,
 				F2B19CB8258F3422000650FC /* SimpleMetal.swift in Sources */,
 				F2D71B2D258792FB008E973F /* Bundle-Decodable.swift in Sources */,
 				F27AD24B2583B45500925DA5 /* SimpleView.swift in Sources */,
@@ -592,6 +610,7 @@
 				F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */,
 				F2B19CD8258F921C000650FC /* Project11.xcdatamodeld in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
+				F283DC492597490600E14304 /* SimpleInstaFilter.swift in Sources */,
 				F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */,
 				F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
@@ -599,6 +618,7 @@
 				F2D71B1D258657A4008E973F /* SimpleScrollView.swift in Sources */,
 				F2B19CC9258F6871000650FC /* Order.swift in Sources */,
 				F218F4B92585E5BB00946C47 /* SimpleExpense.swift in Sources */,
+				F283DC4F2597552A00E14304 /* SimpleSheet.swift in Sources */,
 				F218F4AE2585D88E00946C47 /* SimpleState.swift in Sources */,
 				F27FE5F225879E9B00EAC019 /* MissionView.swift in Sources */,
 				F2D71B3325879525008E973F /* Mission.swift in Sources */,
