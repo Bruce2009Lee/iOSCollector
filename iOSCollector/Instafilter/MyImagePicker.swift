@@ -26,10 +26,12 @@ struct MyImagePicker: UIViewControllerRepresentable {
                 parent.image = uiImage
             }
 
+            // 该view 是在sheetView中打开，调用环境变量的值将该view 关闭
             parent.presentationMode.wrappedValue.dismiss()
         }
     }
     
+    // 告诉 SwiftUI 将Coordinator 类 用于MyImagePicker 协调器
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }

@@ -9,6 +9,7 @@ import UIKit
 
 class MyImageSaver: NSObject {
     
+    //定义2个可选变量，变量是函数类型
     var successHandler: (() -> Void)?
     var errorHandler: ((Error) -> Void)?
     

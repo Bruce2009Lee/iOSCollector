@@ -26,6 +26,8 @@ struct BasicInstaFiler: View {
     
     
     func loadImage() {
+        
+        //inputImage 为空就返回
         guard let inputImage = inputImage else { return }
         
         let beginImage = CIImage(image: inputImage)
@@ -54,6 +56,8 @@ struct BasicInstaFiler: View {
     }
     
     var body: some View {
+        
+        // 将 intensity 和 filterIntensity、applyProcessing()绑定
         let intensity = Binding<Double>(
             get: {
                 self.filterIntensity
@@ -71,6 +75,7 @@ struct BasicInstaFiler: View {
                     Rectangle()
                         .fill(Color.secondary)
                     
+                    // Swift 的view中只能有简单的if else判断，不能有变量的赋值等
                     if image != nil {
                         image?
                             .resizable()
@@ -92,12 +97,16 @@ struct BasicInstaFiler: View {
                 
                 HStack {
                     Button("修改滤镜") {
+                        
+                        // 弹出ActionSheet
                         self.showingFilterSheet = true
                     }
                     
                     Spacer()
                     
                     Button("保存") {
+                        
+                        //processedImage 为空就返回
                         guard let processedImage = self.processedImage else { return }
                         
                         let imageSaver = MyImageSaver()
@@ -117,7 +126,7 @@ struct BasicInstaFiler: View {
             .padding([.horizontal, .bottom])
             .navigationBarTitle("Instafilter")
             .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
-                ImagePicker(image: self.$inputImage)
+                MyImagePicker(image: self.$inputImage)
             }
             .actionSheet(isPresented: $showingFilterSheet) {
                 ActionSheet(title: Text("Select a filter"), buttons: [
