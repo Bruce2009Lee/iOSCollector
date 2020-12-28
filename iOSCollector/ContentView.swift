@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        BasicInstaFiler()
+        SimpleBucket()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleBookworm()
+        SimpleBucket()
     }
 }

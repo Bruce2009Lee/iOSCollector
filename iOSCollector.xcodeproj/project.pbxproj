@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,6 +36,18 @@
 		F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD24F2583BE8500925DA5 /* SimpleGridView.swift */; };
 		F27AD2552584776E00925DA5 /* SimpleBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD2542584776E00925DA5 /* SimpleBindingView.swift */; };
 		F27AD25A258479CD00925DA5 /* GuessRockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AD259258479CD00925DA5 /* GuessRockView.swift */; };
+		F27EC0FC25983F9400AF3243 /* SimpleComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC0FB25983F9400AF3243 /* SimpleComparable.swift */; };
+		F27EC0FF259844AA00AF3243 /* SimpleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC0FE259844AA00AF3243 /* SimpleEnum.swift */; };
+		F27EC1022598457C00AF3243 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC1012598457C00AF3243 /* MapView.swift */; };
+		F27EC1052598494700AF3243 /* SimpleBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC1042598494700AF3243 /* SimpleBucket.swift */; };
+		F27EC108259849AB00AF3243 /* SimpleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC107259849AB00AF3243 /* SimpleMapView.swift */; };
+		F27EC10B259851CD00AF3243 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC10A259851CD00AF3243 /* MKPointAnnotation-ObservableObject.swift */; };
+		F27EC10E2598520600AF3243 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC10D2598520600AF3243 /* EditView.swift */; };
+		F27EC1122598565A00AF3243 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = F27EC1112598565A00AF3243 /* SamplePackage */; };
+		F27EC1152598569B00AF3243 /* SimplePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC1142598569B00AF3243 /* SimplePackage.swift */; };
+		F27EC11D259A193100AF3243 /* SimpleViewCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC11C259A193100AF3243 /* SimpleViewCollector.swift */; };
+		F27EC122259A1C4500AF3243 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC121259A1C4500AF3243 /* TextView.swift */; };
+		F27EC125259A1C5F00AF3243 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC124259A1C5F00AF3243 /* ButtonView.swift */; };
 		F27FE5F225879E9B00EAC019 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F125879E9B00EAC019 /* MissionView.swift */; };
 		F27FE5F52587A17100EAC019 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F42587A17100EAC019 /* AstronautView.swift */; };
 		F27FE5F8258A3B2A00EAC019 /* ChallengeMoonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */; };
@@ -124,6 +136,17 @@
 		F27AD24F2583BE8500925DA5 /* SimpleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridView.swift; sourceTree = "<group>"; };
 		F27AD2542584776E00925DA5 /* SimpleBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBindingView.swift; sourceTree = "<group>"; };
 		F27AD259258479CD00925DA5 /* GuessRockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessRockView.swift; sourceTree = "<group>"; };
+		F27EC0FB25983F9400AF3243 /* SimpleComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleComparable.swift; sourceTree = "<group>"; };
+		F27EC0FE259844AA00AF3243 /* SimpleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEnum.swift; sourceTree = "<group>"; };
+		F27EC1012598457C00AF3243 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F27EC1042598494700AF3243 /* SimpleBucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBucket.swift; sourceTree = "<group>"; };
+		F27EC107259849AB00AF3243 /* SimpleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapView.swift; sourceTree = "<group>"; };
+		F27EC10A259851CD00AF3243 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		F27EC10D2598520600AF3243 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F27EC1142598569B00AF3243 /* SimplePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePackage.swift; sourceTree = "<group>"; };
+		F27EC11C259A193100AF3243 /* SimpleViewCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewCollector.swift; sourceTree = "<group>"; };
+		F27EC121259A1C4500AF3243 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F27EC124259A1C5F00AF3243 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F27FE5F125879E9B00EAC019 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		F27FE5F42587A17100EAC019 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		F27FE5F7258A3B2A00EAC019 /* ChallengeMoonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeMoonshot.swift; sourceTree = "<group>"; };
@@ -184,6 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27EC1122598565A00AF3243 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +257,8 @@
 		F2623AE5257BB216006D91B7 /* iOSCollector */ = {
 			isa = PBXGroup;
 			children = (
+				F27EC11B259A190A00AF3243 /* ViewCollector */,
+				F27EC0FA25983F7A00AF3243 /* BucketList */,
 				F283DC47259748DF00E14304 /* Instafilter */,
 				F283DC162590688A00E14304 /* SimpleBind */,
 				F2B19CD5258F91C1000650FC /* Bookworm */,
@@ -371,6 +397,31 @@
 				F27AD259258479CD00925DA5 /* GuessRockView.swift */,
 			);
 			path = GuessRock;
+			sourceTree = "<group>";
+		};
+		F27EC0FA25983F7A00AF3243 /* BucketList */ = {
+			isa = PBXGroup;
+			children = (
+				F27EC0FB25983F9400AF3243 /* SimpleComparable.swift */,
+				F27EC1042598494700AF3243 /* SimpleBucket.swift */,
+				F27EC10A259851CD00AF3243 /* MKPointAnnotation-ObservableObject.swift */,
+				F27EC10D2598520600AF3243 /* EditView.swift */,
+				F27EC0FE259844AA00AF3243 /* SimpleEnum.swift */,
+				F27EC1012598457C00AF3243 /* MapView.swift */,
+				F27EC107259849AB00AF3243 /* SimpleMapView.swift */,
+				F27EC1142598569B00AF3243 /* SimplePackage.swift */,
+			);
+			path = BucketList;
+			sourceTree = "<group>";
+		};
+		F27EC11B259A190A00AF3243 /* ViewCollector */ = {
+			isa = PBXGroup;
+			children = (
+				F27EC11C259A193100AF3243 /* SimpleViewCollector.swift */,
+				F27EC121259A1C4500AF3243 /* TextView.swift */,
+				F27EC124259A1C5F00AF3243 /* ButtonView.swift */,
+			);
+			path = ViewCollector;
 			sourceTree = "<group>";
 		};
 		F283DC162590688A00E14304 /* SimpleBind */ = {
@@ -521,6 +572,9 @@
 			dependencies = (
 			);
 			name = iOSCollector;
+			packageProductDependencies = (
+				F27EC1112598565A00AF3243 /* SamplePackage */,
+			);
 			productName = iOSCollector;
 			productReference = F2623AE3257BB216006D91B7 /* iOSCollector.app */;
 			productType = "com.apple.product-type.application";
@@ -548,6 +602,9 @@
 				Base,
 			);
 			mainGroup = F2623ADA257BB216006D91B7;
+			packageReferences = (
+				F27EC1102598565A00AF3243 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = F2623AE4257BB216006D91B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -591,17 +648,21 @@
 				F27AD241258269EB00925DA5 /* SwiftAlertView.swift in Sources */,
 				F2623AE9257BB216006D91B7 /* ContentView.swift in Sources */,
 				F218F4A62585C50A00946C47 /* SimpleAnimationBinding.swift in Sources */,
+				F27EC10B259851CD00AF3243 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				F27FE5F52587A17100EAC019 /* AstronautView.swift in Sources */,
 				F2E142602586344D00EFB91B /* AddViewChallenge.swift in Sources */,
 				F218F4B22585E04300946C47 /* SimpleOndelete.swift in Sources */,
+				F27EC1022598457C00AF3243 /* MapView.swift in Sources */,
 				F284958F2584E7DE00D5E85E /* SimpleWordScramble.swift in Sources */,
 				F2E142592585E85700EFB91B /* AddView.swift in Sources */,
 				F2B19CD2258F6CBE000650FC /* CheckoutView.swift in Sources */,
+				F27EC11D259A193100AF3243 /* SimpleViewCollector.swift in Sources */,
 				F27AD24725826C0C00925DA5 /* FlagView.swift in Sources */,
 				F2D5AFBB257BC67E00B21E6E /* LoginFirstView.swift in Sources */,
 				F218F4A92585C70200946C47 /* SimpleThreeD.swift in Sources */,
 				F2B19CDE258F9377000650FC /* SimpleBookworm.swift in Sources */,
 				F218F4B52585E2D500946C47 /* UserDefault.swift in Sources */,
+				F27EC0FC25983F9400AF3243 /* SimpleComparable.swift in Sources */,
 				F2623AE7257BB216006D91B7 /* iOSCollectorApp.swift in Sources */,
 				F2D5AFC2257BC8A700B21E6E /* LoginrootView.swift in Sources */,
 				F24B12F22584D53300BFF1D5 /* SectionBetterSleepView.swift in Sources */,
@@ -621,14 +682,18 @@
 				F28495972584F60B00D5E85E /* ChallengeWordScramble.swift in Sources */,
 				F2B19CE82590564F000650FC /* DetailView.swift in Sources */,
 				F2B19CCF258F6C33000650FC /* AddressView.swift in Sources */,
+				F27EC122259A1C4500AF3243 /* TextView.swift in Sources */,
 				F2B19CD8258F921C000650FC /* Project11.xcdatamodeld in Sources */,
+				F27EC125259A1C5F00AF3243 /* ButtonView.swift in Sources */,
 				F2EFF4AA2584A268000E2428 /* SimpleStepperView.swift in Sources */,
 				F283DC5225975F7200E14304 /* ImagePicker.swift in Sources */,
 				F283DC492597490600E14304 /* SimpleInstaFilter.swift in Sources */,
 				F2B19CBE258F366D000650FC /* SimpleTrapezoid.swift in Sources */,
 				F283DC5E25976B3600E14304 /* MyImagePicker.swift in Sources */,
+				F27EC1052598494700AF3243 /* SimpleBucket.swift in Sources */,
 				F2B19CB5258F3267000650FC /* SimpleImagePaint.swift in Sources */,
 				F27AD23C2582693400925DA5 /* SwiftImageView.swift in Sources */,
+				F27EC0FF259844AA00AF3243 /* SimpleEnum.swift in Sources */,
 				F2B19CDB258F927F000650FC /* AddBookView.swift in Sources */,
 				F2D71B1D258657A4008E973F /* SimpleScrollView.swift in Sources */,
 				F2B19CC9258F6871000650FC /* Order.swift in Sources */,
@@ -638,13 +703,16 @@
 				F27FE5F225879E9B00EAC019 /* MissionView.swift in Sources */,
 				F2D71B3325879525008E973F /* Mission.swift in Sources */,
 				F27AD2502583BE8500925DA5 /* SimpleGridView.swift in Sources */,
+				F27EC108259849AB00AF3243 /* SimpleMapView.swift in Sources */,
 				F2EFF4AF2584B494000E2428 /* SimpleBetterSleepView.swift in Sources */,
 				F2E1425D2586335B00EFB91B /* ChallengeExpense.swift in Sources */,
+				F27EC1152598569B00AF3243 /* SimplePackage.swift in Sources */,
 				F2623AFC257BBC1F006D91B7 /* NaviLinkView.swift in Sources */,
 				F2B19CAF258F2D3C000650FC /* SimpleShape.swift in Sources */,
 				F283DC18259068E800E14304 /* SimpleBindView.swift in Sources */,
 				F27AD201257D1AE300925DA5 /* EnvironmentView.swift in Sources */,
 				F218F4BD2585E5EA00946C47 /* ExpenseItem.swift in Sources */,
+				F27EC10E2598520600AF3243 /* EditView.swift in Sources */,
 				F2D71B3025879474008E973F /* SimpleMoonshotView.swift in Sources */,
 				F2B19CCC258F6A46000650FC /* CupCakeEntry.swift in Sources */,
 				F284959B2585BF5100D5E85E /* SimpleAnimation.swift in Sources */,
@@ -842,6 +910,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F27EC1102598565A00AF3243 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F27EC1112598565A00AF3243 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F27EC1102598565A00AF3243 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F2B19CD6258F921C000650FC /* Project11.xcdatamodeld */ = {
