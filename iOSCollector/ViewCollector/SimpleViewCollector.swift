@@ -9,17 +9,36 @@ import SwiftUI
 
 struct SimpleViewCollector: View {
     
-    @State private var oneView:[String]? = ["TextView","ButtonView"]
+    let myViews = [
+        "TextView",
+        "ButtonView",
+        "ThirdView"
+    ]
+    
+    //
+    func containedView(viewName: String) -> AnyView {
+        switch viewName {
+        case "TextView":
+            return AnyView(TextView())
+        case "ButtonView":
+            return AnyView(ButtonView())
+        default:
+            return AnyView(Text("None"))
+        }
+    }
+    
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(0..<5){item in
-                    NavigationLink(destination: Text("\(item)")) {
-                        Text("\(item)")
-                    }
+            List(myViews, id: \.self) { viewName in
+                NavigationLink(destination: self.containedView(viewName: viewName)) {
+                    Text(viewName)
                 }
-            }.navigationBarTitle("iOS Collector")
+            }
+            .navigationBarTitle(Text("iOS Collector"), displayMode: .automatic)
+            .onAppear {
+                NSLog("🚩 iOS Collector")
+            }
         }
     }
 }
